@@ -1,0 +1,181 @@
+@media only screen and (max-width: 1199.98px) {
+    .banner {
+        background-size: 650px;
+    }
+
+    .relationship-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .relationship-content h2 {
+        font-size: 36px;
+    }
+    .service-list h3 {
+        font-size: 22px;
+    }
+
+    .profile-blog-item {
+        padding: 16px 16px 30px 16px;
+    }
+
+    .profile-blog-location span.years {
+        float: left;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    div#navbarSupportedContent {
+        background: #ffffff;
+        position: absolute;
+        width: 100%;
+        top: 72px;
+        left: 0px;
+    }
+    .navbar-toggler-icon {
+
+      	border-radius: 2px;
+  	}
+    .nav-menu {
+      	align-items: left;
+      	display: inline;
+    }
+    .nav-menu-right li a {
+		margin-left: 12px;
+    }
+    .banner-content h1 {
+        font-size: 48px;
+    }
+    .banner {
+        background-size: 530px;
+    }
+
+    .partner-list img {
+        width: 120px;
+    }
+
+    .relationship-colum {
+        padding-right: 50px;
+    }
+
+    .relationship-content h2 {
+        font-size: 30px;
+    }
+
+    .relationship-content p {
+        font-size: 14px;
+    }
+    .service-list {
+        padding: 40px 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .service-list h3 {
+        font-size: 18px;
+    }
+    .service-list p {
+        font-size: 14px;
+    }
+
+    .journey-content p {
+    
+        padding: 0px 30px;
+    }
+    .price-list {
+        padding: 40px 10px;
+    }
+
+    .price-list ul li span {
+        font-size: 14px;
+    }
+
+    .profile-blog-location span.years {
+        float: right;
+        margin-left: 20px;
+    }
+    .profile-blog-item {
+        margin-top: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width: 767.98px) {
+    .banner {
+        background-size: 310px;
+    }
+    .partner-container {
+        padding: 50px 26px;
+    }
+    .partner-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .partner-list img {
+        width: 120px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .relationship-content {
+        margin-top: 50px;
+    }
+
+    .service-list {
+        margin-top: 30px;
+    }
+
+    .service-list {
+        margin-top: 30px;
+    }
+    .price-list {
+        padding: 40px 10px;
+        margin-top: 30px;
+    }
+    .profile-blog-heading p {
+        margin-bottom: 0px;
+    }
+    .profile-view-more {
+    
+        justify-content: start;
+
+    }
+}
+
+
+@media only screen and (max-width: 575.98px) {
+    .newsletter-content {
+        width: 350px;
+    }
+    .subscribe-form {
+        width: 350px;
+    }
+    .banner {
+        background-size: 200px;
+    }
+
+    .latest-profile {
+        margin-top: 20px;
+    }
+
+    .banner-content h1 {
+        font-size: 42px;
+    }
+
+    .banner-content {
+        margin-top: 50px;
+    }
+
+    .journey-content h2 {
+        font-size: 36px;
+    }
+
+    .section-title h2 {
+        font-size: 36px;
+    }
+    
+}
