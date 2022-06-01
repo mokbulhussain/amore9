@@ -1,28 +1,47 @@
 @media only screen and (max-width: 1199.98px) {
-    .banner {
-        background-size: 650px;
+    .banner-content a {
+        padding: 14px 18px;
+       
+    }
+    .latest-profile-user {
+  
+        width: 150px;
+       
+    }
+    .service-list img {
+        margin-top: 10px;
+    }
+    .feature-title {
+        margin-top: 100px;
+        margin-bottom: 30px;
     }
 
-    .relationship-container {
-        padding-left: 24px;
-        padding-right: 24px;
+    .feature-container {
+       
+        background-size: 100% 975px;
+        height: 975px;
     }
 
-    .relationship-content h2 {
-        font-size: 36px;
-    }
-    .service-list h3 {
-        font-size: 22px;
+    .feature-title {
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
-    .profile-blog-item {
-        padding: 16px 16px 30px 16px;
+    img.feature-left {
+        left: -30px;
     }
 
-    .profile-blog-location span.years {
-        float: left;
-        margin-left: 20px;
+    .price-list {
+        padding: 100px 20px 50px 20px;
+       
     }
+    .price-list span.price-list-heading {
+
+        right: -10px;
+      
+    }
+     
+   
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -32,6 +51,7 @@
         width: 100%;
         top: 72px;
         left: 0px;
+        z-index: 9999;;
     }
     .navbar-toggler-icon {
 
@@ -44,138 +64,197 @@
     .nav-menu-right li a {
 		margin-left: 12px;
     }
+
+    .banner-img img {
+        width: 100%;
+    }
+
     .banner-content h1 {
-        font-size: 48px;
+        font-size: 44px;
+        line-height: 54px;
     }
-    .banner {
-        background-size: 530px;
-    }
+    .latest-profile {
 
-    .partner-list img {
-        width: 120px;
+        flex-direction: column;
+        justify-content: flex-start;
     }
+    .banner-content p {
 
-    .relationship-colum {
-        padding-right: 50px;
-    }
-
-    .relationship-content h2 {
-        font-size: 30px;
-    }
-
-    .relationship-content p {
         font-size: 14px;
+        line-height: 24px;
     }
-    .service-list {
-        padding: 40px 10px;
-        margin-right: 5px;
-        margin-left: 5px;
+    .latest-profile-user {
+        margin-top: 20px;
+        margin-left: 70px;
     }
 
     .service-list h3 {
-        font-size: 18px;
+       
+        font-size: 16px;
+        line-height: 26px;
     }
     .service-list p {
         font-size: 14px;
+        line-height: 24px;
+
+    }
+    .service-list-investor h3 {
+        font-size: 32px;
+
+        line-height: 42px;
     }
 
-    .journey-content p {
-    
-        padding: 0px 30px;
-    }
-    .price-list {
-        padding: 40px 10px;
+    .relationship-colum {
+        padding-right: 0px;
     }
 
-    .price-list ul li span {
+    .relationship-content p {
+      
         font-size: 14px;
+        line-height: 24px;
+       
     }
 
-    .profile-blog-location span.years {
-        float: right;
-        margin-left: 20px;
+    .relationship-content h2 {
+        margin-top: -30px;
     }
-    .profile-blog-item {
+
+    img.feature-left {
+        left: -107px;
+    }
+
+    img.feature-right {
+        bottom: -150px;
+
+    }
+    .tab-menu-item {
+        width: 320px;
+        height: 450px;
+        /* overflow-y: scroll; */
+    }
+
+    .price-bg {
+      
+        height: 100%;
+        
+    }
+
+    .price-list {
         margin-top: 30px;
     }
+
+    footer {
+    
+        margin-top: 120px;
+    
+    }
+    .footer-part h3 {
+      
+        margin-top: 30px;
+    }
+
+    .latest-news-heading h3 {
+        margin-top: 0px;
+    }
+   
 }
 
 
 
 @media only screen and (max-width: 767.98px) {
-    .banner {
-        background-size: 310px;
+    .relationship-content h2 {
+        margin-top: 30px;
     }
-    .partner-container {
-        padding: 50px 26px;
-    }
-    .partner-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    .feature-container {
+        height: 100%;
+        background: #F6F9FF;
     }
 
-    .partner-list img {
-        width: 120px;
-        margin-top: 20px;
-        margin-left: 15px;
+    img.feature-left {
+        left: -108px;
+        top: -70px;
     }
 
-    .relationship-content {
-        margin-top: 50px;
+    .feature-title h2 {
+        font-size: 32px;
+        line-height: 42px;
     }
 
-    .service-list {
+    .feature-content-img {
+        text-align: center;
         margin-top: 30px;
     }
 
-    .service-list {
-        margin-top: 30px;
+    img.mobile-love {
+        position: absolute;
+        right: 80px;
+        top: -40px;
     }
-    .price-list {
-        padding: 40px 10px;
-        margin-top: 30px;
+
+    .tab-menu-item button {
+
+        padding: 25px 0px 21px 2px;
+
     }
-    .profile-blog-heading p {
-        margin-bottom: 0px;
+
+    .tab-menu-item {
+        width: 220px;
+
+        /* overflow-y: scroll; */
     }
-    .profile-view-more {
+
+    .say-tab-content {
+        padding-left: 60px;
+    }
     
-        justify-content: start;
 
-    }
 }
 
 
+
+
 @media only screen and (max-width: 575.98px) {
-    .newsletter-content {
-        width: 350px;
-    }
-    .subscribe-form {
-        width: 350px;
-    }
+   
     .banner {
-        background-size: 200px;
+        margin-top: 70px;
+    }
+    img.android {
+        width: 160px;
+    }
+    .feature-title img.ios {
+        margin-left: 10px;
+        width: 150px;
     }
 
-    .latest-profile {
-        margin-top: 20px;
+    .feature-content-title h3 {
+        margin-top: 16px;
     }
-
-    .banner-content h1 {
-        font-size: 42px;
+    .feature {
+        padding-bottom: 110px;
     }
-
-    .banner-content {
+    .say-heading h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 30px;
         margin-top: 50px;
     }
-
-    .journey-content h2 {
-        font-size: 36px;
+    .say-tab-content {
+        padding-left: 10px;
+        margin-top: -80px;
     }
-
+    section.price {
+        margin-top: 120px;
+    }
     .section-title h2 {
-        font-size: 36px;
+        font-size: 30px;
+        line-height: 40px;
     }
-    
+
+    .footer-top-content {
+
+        margin-top: 30px;
+    }
+    .footer-top-love2 img {
+        margin-top: 30px;
+    }
 }

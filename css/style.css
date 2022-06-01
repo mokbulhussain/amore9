@@ -26,6 +26,32 @@
 /* 1. Font css */
 
 @font-face {
+    font-family: PoppinsLight;
+    src: url(../fonts/Poppins-Light.ttf);
+  }
+
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: PoppinsMedium;
+    src: url(../fonts/Poppins-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: PoppinsSemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: PoppinsBold;
+    src: url(../fonts/Poppins-Bold.ttf);
+  }
+
+
+@font-face {
     font-family: RalewayMedium;
     src: url(../fonts/Raleway-Medium.ttf);
   }
@@ -256,8 +282,7 @@ label {
 
 .section-title {
     text-align: center;
-    width: 485px;
-    margin: 0px auto;
+
 }
 
 .section-title h2 {
@@ -270,7 +295,7 @@ label {
 .section-title p {
     font-size: 16px;
     color: #3B406C;
-    font-family: 'GilroyRegular';
+    font-family: PoppinsRegular;
     line-height: 26px;
     margin-top: 6px;
 }
@@ -296,8 +321,8 @@ header {
 }
 
 .navbar-brand img {
-    width: 131px;
-    height: 19px;
+    width: 162px;
+    height: 30px;
 }
 
 .nav-menu li {
@@ -307,9 +332,8 @@ header {
 .nav-menu li a {
     color: #3B406C !important;
     font-size: 16px;
-  
     line-height: 26px;
-    font-family: RalewayRegular;
+    font-family: PoppinsRegular;
 }
 
 .nav-menu li a:hover {
@@ -324,7 +348,7 @@ text-fill-color: transparent;
 
 .nav-menu-right li a {
     color: #3B406C;
-    font-family: GilroySemiBold;
+    font-family: PoppinsSemiBold;
     font-size: 14px;
     padding: 0px;
     margin-left: 24px;
@@ -336,14 +360,13 @@ text-fill-color: transparent;
     padding: 10px 24px;
     border-radius: 12px;
     font-size: 14px;
-    font-family: GilroyBold;
+    font-family: PoppinsBold;
     line-height: 16px;
     color: #ffffff;
 }
 
 .nav-menu-right li.login a:hover {
-    color: #ffffff;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #2c2c2c;
     padding-bottom: 4px;
     padding-top: 5px;
 }
@@ -362,72 +385,50 @@ text-fill-color: transparent;
 .banner{
     margin-top: 100px;
 }
+.banner-container{
+ padding-left: 34px;
+ padding-right: 34px;
+}
 
 .banner-content{
     margin-top: 40px;
 }
 
 .banner-content img {
-    width: 24px;
-    height: 21px;
+    width: 45px;
+    height: 38px;
 }
 
-.banner-content span {
-    background: linear-gradient(180deg, #FFAD32 0%, #FF6F44 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-transform: uppercase;
-    margin-left: 16px;
-    font-size: 14px;
-    line-height: 24px;
-    font-family: RalewayBold;
-}
 
 
 .banner-content h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: #3B406C;
-    font-family: RalewayBold;
-    line-height: 64px;
+    font-family: GeorgiaBold;
+    line-height: 70px;
     margin-top: 24px;
 }
 
 .banner-content p {
     color: #3B406C;
     font-size: 16px;
-    font-family: 'RalewayRegular';
-    margin-bottom: 60px;
+    font-family: PoppinsRegular;
+    margin-bottom: 52px;
     margin-top: 24px;
     line-height: 26px;
 }
 
 .banner-content a {
-    padding: 17px 44px;
-    background: linear-gradient(180deg, #FFAD32 0%, #FF6F44 100%);
-    border-radius: 6px;
+    padding: 17px 40px;
+    background: #FF7F5A;
+    border-radius: 12px;
     font-size: 16px;
     color: #ffffff;
     text-decoration: none;
-    font-family: RalewaySemibold;
+    font-family: PoppinsSemiBold;
     line-height: 26px;
 }
-.banner-content a.success-story{
-    background: transparent;
-    text-decoration: underline;
-    margin-left: -20px;
-}
 
-.banner-content a.success-story:hover{
-
-  box-shadow: none;
-  text-decoration: none;
-}
-
-.banner-colum {
-    z-index: 1;
-}
 
 .banner-content a:hover {
     box-shadow: 0px 20px 40px 0 rgb(72 10 45 / 10%);
@@ -460,18 +461,32 @@ text-fill-color: transparent;
     align-items: center;
     justify-content: center;
     border-radius: 0px 24px 24px 0px;
-    margin-left: 30px;
+    margin-left: 70px;
 }
 
 .latest-profile-user img {
-    width: 40px;
-    height: 40px;
+    width: 52px;
+    height: 52px;
     margin-left: -15px;
 }
 
 .latest-profile-user .count {
     margin-left: 6px;
     color: #332724 !important;
+    display: flex;
+}
+span.count-number {
+    font-family: PoppinsBold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3B406C;
+}
+
+span.count-member {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 6px;
+    font-family: PoppinsLight;
 }
 
 .banner-img {
@@ -485,7 +500,7 @@ text-fill-color: transparent;
 /* 6. Service Star*/
 
 section.service {
-    margin-top: -180px;
+    margin-top: -170px;
 }
 
 .container.service-container {
@@ -493,6 +508,8 @@ section.service {
     background: #FFFFFF;
     box-shadow: -10px 40px 120px rgb(1 66 27 / 6%);
     border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .service-list {
@@ -503,23 +520,25 @@ section.service {
 }
 
 .service-list img {
-    width: 44px;
+    width: 46px;
+    height: 48px;
 }
 
 .service-list h3 {
     color: #3B406C;
-    font-size: 24px;
-    line-height: 34px;
-    font-family: 'RalewaySemibold';
-    margin-top: 14px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'PoppinsBold';
+    margin-top: 24px;
 }
 
 .service-list p {
     font-size: 16px;
-    font-family: 'RalewayRegular';
+    font-family: 'PoppinsRegular';
     line-height: 26px;
     color: #3B406C;
-    margin-top: 18px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .service-list a {
@@ -527,7 +546,7 @@ section.service {
     color: #3B406C;
     font-size: 14px;
     line-height: 24px;
-    font-family: revert;
+    font-family: PoppinsSemiBold;
 }
 
 .service-list svg {
@@ -619,7 +638,7 @@ section.relationship {
 .relationship-content h2 {
     color: #3B406C;
     font-size: 40px;
-    font-family: 'RalewayBold';
+    font-family: GeorgiaBold;
     line-height: 50px;
     margin-top: 20px;
 }
@@ -627,7 +646,7 @@ section.relationship {
 .relationship-content p {
     color: #3B406C;
     font-size: 16px;
-    font-family: 'RalewayRegular';
+    font-family: PoppinsRegular;
     line-height: 26px;
     margin-bottom: 44px;
     margin-top: 18px;
@@ -638,7 +657,7 @@ section.relationship {
     font-size: 16px;
     padding: 10px 24px;
     text-decoration: none;
-    font-family: 'RALEWAYSEMIBOLD';
+    font-family: PoppinsSemiBold;
     color: #ffffff;
     background: #00C2A5;
 border-radius: 8px;
@@ -653,12 +672,24 @@ border-radius: 8px;
 
 .feature {
     margin-top: 120px;
+    position: relative;
+}
+img.feature-left {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+img.feature-right {
+    position: absolute;
+    bottom: 50px;
+    right: 00px;
 }
 
 .feature-container{
     background-image: url(../img/feature/feature_bg.jpg);
     background-size: contain;
-    height: 975px;
+    height: 1000px;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 100px;
@@ -666,8 +697,8 @@ border-radius: 8px;
 
 .feature-title {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 
@@ -682,9 +713,22 @@ border-radius: 8px;
     color: #3B406C;
     font-size: 16px;
     line-height: 24px;
-    font-family: 'GilroyRegular';
+    font-family: PoppinsRegular;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 46px;
+}
+.feature-content-title h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'PoppinsBold';
+    color: #3B406C;
+}
+
+.feature-content-title p {
+    font-size: 16px;
+    color: #3B406C;
+    line-height: 26px;
+    font-family: 'PoppinsRegular';
 }
 .feature-title img.ios {
     margin-left: 30px;
@@ -705,8 +749,8 @@ border-radius: 8px;
 
 img.mobile-love {
     position: absolute;
-    right: -50px;
-    top: -50px;
+    right: -70px;
+    top: -60px;
 }
 
 .feature-content {
@@ -723,7 +767,7 @@ img.mobile-love {
 
 
 section.say {
-    margin-top: 120px;
+    margin-top: 70px;
 }
 
 .say-heading h2 {
@@ -756,14 +800,17 @@ section.say {
 
 .tab-menu-title h3 {
     font-size: 14px;
-    font-family: 'GilroySemiBold';
+    font-family: PoppinsSemiBold;
+    line-height: 24px;
     color: #3B406C;
+    margin-top: -10px;
 }
 
 .tab-menu-title h4 {
     font-size: 14px;
-    font-family: 'GilroyRegular';
+    font-family: PoppinsRegular;
     color: #3B406C;
+    line-height: 24px;
 }
 
 .tab-menu-title {
@@ -800,7 +847,7 @@ section.say {
 
 .tab-content-list h2 {
     color: #3B406C;
-    font-family: 'GilroyBold';
+    font-family: PoppinsBold;
     margin-top: 30px;
     font-size: 20px;
     line-height: 30px;
@@ -817,7 +864,8 @@ section.say {
 .tab-content-list p {
     color: #3B406C;
     font-size: 16px;
-    font-family: 'GilroyRegular';
+    font-family: PoppinsRegular;
+    line-height: 26px;
     margin-top: 30px;
 }
 
@@ -861,7 +909,7 @@ section.price {
     background: #FFFFFF;
     border-radius: 12px;
     text-align: center;
-    padding:100px 80px 50px 80px;
+    padding: 100px 60px 50px 60px;
     position: relative;
 }
 
@@ -884,7 +932,7 @@ section.price {
     transform: rotate(-0.53deg);
     transform: rotate(45deg);
     top: 50px;
-    font-family: 'GilroyBold';
+    font-family: PoppinsBold;
 }
 .price-list:hover span.price-list-heading{
     background: linear-gradient(112.97deg, #99F7BE 3.02%, #229F98 66.38%);
@@ -903,13 +951,18 @@ section.price {
 }
 
 .price-list h4 {
-    font-size: 32px;
-    line-height: 42px;
-    font-family: 'GilroySemiBold';
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'PoppinsBold';
     color: #3B406C;
     padding-bottom: 14px;
-    border-bottom: 1px solid #D0CEE0;
   
+}
+.price-list h4 span {
+    font-size: 16px;
+    line-height: 26px;
+    color: #3B406C;
+    font-family: 'PoppinsRegular';
 }
 
 .price-list ul {
@@ -929,18 +982,23 @@ section.price {
     margin-left: 10px;
     font-size: 14px;
     line-height: 24px;
-    font-family: 'GilroySemiBold';
+    font-family: PoppinsSemiBold;
     color: #3B406C;
+}
+.price-list p {
+    margin-top: 40px;
 }
 
 .price-list p a {
     font-size: 16px;
-    font-family: 'RalewaySemibold';
+    font-family: 'PoppinsSemiBold';
     line-height: 26px;
     text-decoration: none;
     margin-top: 10px;
-    padding: 10px 24px;
-    border: 1px solid #3B406C;
+    padding: 17px 44px;
+    border: 1px solid #FF7F5A;
+    color: #3B406C;
+    border-radius: 8px;
     color: #3B406C;
 }
 
@@ -948,18 +1006,32 @@ section.price {
     margin-top: 30px;
 }
 
+
+
 .price-list:hover {
     box-shadow: 35px 100px 152px rgba(26, 58, 119, 0.08);
+    z-index: 99999;
 }
 
 
 .price-list:hover p a{
-    background: linear-gradient(180deg, #FFAD32 0%, #FF6F44 100%);
+    background: #FF7F5A;
 border-radius: 6px;
 color: #ffffff;
 border: none;
 }
 
+.price-list-active {
+    box-shadow: 35px 100px 152px rgba(26, 58, 119, 0.08);
+    z-index: 99999;
+}
+
+.price-list-active p a{
+background: #FF7F5A;
+border-radius: 6px;
+color: #ffffff;
+border: none;
+}
 
 
 
@@ -975,7 +1047,7 @@ border: none;
 
 footer {
     background-color: #3B406C;
-    padding: 45px 0px 50px 0px;
+    padding: 45px 0px 20px 0px;
     margin-top: 300px;
     position: relative;
 }
@@ -1003,7 +1075,7 @@ footer {
 
 .footer-top-content {
     text-align: center;
-    margin-top: 100px;
+    margin-top:90px;
 }
 
 .footer-top-love2 {
@@ -1017,7 +1089,9 @@ footer {
 .footer-top-content p {
     margin-top: 30px;
     color: #ffffff;
-    font-family: GilroyRegular;
+    font-family: 'PoppinsRegular';
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .footer-mid {
@@ -1031,6 +1105,7 @@ footer {
     font-size: 14px;
     font-family: 'PoppinsSemiBold';
     line-height: 24px;
+    margin-bottom: 20px;
 }
 
 .footer-part ul li {
@@ -1054,6 +1129,7 @@ footer {
     font-size: 14px;
     font-family: 'PoppinsRegular';
     line-height: 24px;
+    margin-top: -16px;
 }
 
 .footer-subscribe {
@@ -1085,5 +1161,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.footer-bottom h4{
+    color: #ffffff;   
+    font-size: 14px;
+    font-family: PoppinsSemiBold;
+    text-align: center;
+   margin-top: 50px;
 }
 
